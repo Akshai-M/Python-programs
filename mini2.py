@@ -42,7 +42,7 @@ class TollGate:
             if vehicle['vehicle_number'] == vehicle_number:
                 print(f"Vehicle number: {vehicle['vehicle_number']}\nVehicle type: {vehicle['vehicle_type']}\nVehicle driver name: {vehicle['driver_name']}\n")
                 return
-        print(f"No vehicle found with number {vehicle_number}")
+            print(f"No vehicle found with number {vehicle_number}")
 
     def display_total_revenue(self):
         total_revenue = 0
